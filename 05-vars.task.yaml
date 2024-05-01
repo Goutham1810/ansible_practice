@@ -5,7 +5,7 @@
     duration: "120 HRS"
     trainer: "Siva Kumar M"
   tasks:
-  - name: print task variable
+  - name: print task variable # here it will override the variable
     vars:
       course: "Devops-Ansible"
     ansible.builtin.debug:
