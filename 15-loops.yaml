@@ -4,7 +4,7 @@
   - name: To run the loops
     ansible.builtin.debug:
       msg: "Hello {{item}}"
-    loops:
+    loop:
     - linux
     - ansible
     - github
