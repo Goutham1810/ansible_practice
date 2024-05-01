@@ -5,14 +5,16 @@
     duration: "120 HRS"
     trainer: "Siva Kumar M"
   tasks:
-  - name: Accessing the Play variables
-      ansible.builtin.debug:
-        msg: "Hi, i am learning {{course}} from {{trainer}} in a duration of {{duration}}"
-  
-  tasks:
   - name: print task variable
       vars:
         course: "Devops-Ansible"
+      ansibel.builtin.debug:
+        msg: "Hi. i am learning {{course}} from {{trainer}} in a duration of {{duration}}"
+
+
+  - name: print task variable
+      vars: # Task variable
+        course: "Devops-Terraform"
       ansibel.builtin.debug:
         msg: "Hi. i am learning {{course}} from {{trainer}} in a duration of {{duration}}"
       
