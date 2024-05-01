@@ -1,6 +1,6 @@
 - name: Declaring Vairables
   hosts: localhost
-  vars:
+  vars: # Variable declaration at Play level
     course: "devops-ansible"
     trainer: "sivakumar M"
     duration: "120HR"
