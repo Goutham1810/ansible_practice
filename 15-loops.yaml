@@ -1,4 +1,4 @@
-- names: loops working
+- name: demo on loops
   hosts: localhost
   tasks:
   - name: To run the loops
