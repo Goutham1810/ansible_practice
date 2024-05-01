@@ -1,8 +1,8 @@
 - name: print min and max
   hosts: localhost
   vars:
-    args: [12,25,62,54,63]
+    ages: [12,25,62,54,63]
   tasks:
   - name: to print min and max ages
     ansible.builtin.debug:
-      msg: "To print min ages {{ args| min }}", To print max ages {{ args | max }}"
+      msg: "To print min ages {{ ages | min }}", To print max ages {{ ages | max }}"
