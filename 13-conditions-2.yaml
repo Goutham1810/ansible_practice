@@ -1,6 +1,6 @@
 - name: finding number is greater or less than 10
   hosts: localhost
-  var_prompt: 
+  vars_prompt: 
   - name: number
     prompt: Please Enter The Number
     private: no
