@@ -6,15 +6,15 @@
     trainer: "Siva Kumar M"
   tasks:
   - name: print task variable
-      vars:
+    vars:
         course: "Devops-Ansible"
-      ansibel.builtin.debug:
+    ansibel.builtin.debug:
         msg: "Hi. i am learning {{course}} from {{trainer}} in a duration of {{duration}}"
 
 
   - name: print task variable
-      vars: # Task variable
+    vars: # Task variable
         course: "Devops-Terraform"
-      ansibel.builtin.debug:
+    ansibel.builtin.debug:
         msg: "Hi. i am learning {{course}} from {{trainer}} in a duration of {{duration}}"
       
