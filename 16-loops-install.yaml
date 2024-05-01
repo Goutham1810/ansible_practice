@@ -8,7 +8,7 @@
       name: "{{item}}"
       state: latest
     loop:
-    - linux
-    - ansible
-    - github
-    - shell_script
+    - mysql
+    - nginx
+    - postfix
+  
