@@ -1,0 +1,12 @@
+- name: install the libraries
+  hosts: localhost
+  tasks:
+  - name: installing them using loops
+    ansible.builtin.dnf:
+      name: "{{item}}"
+      state: "{{latest}}"
+    loop:
+    - linux
+    - ansible
+    - github
+    - shell_script
