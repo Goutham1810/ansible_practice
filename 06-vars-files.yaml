@@ -1,0 +1,8 @@
+- name: declaration of variable at File level
+  hosts: localhost
+  vars_files:
+    - vars.yaml
+  tasks:
+    - name: printing varibles in another file
+      ansible.builtin.debug:
+        msg: "Hi, We are learning {{Course}} from a {{Trainer}} in a duration of {{Duration}}"
