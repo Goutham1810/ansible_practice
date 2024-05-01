@@ -3,7 +3,7 @@
   tasks:
   - name: Access the argument
     ansible.builtin.debug:
-      msg: "HI {{PERSON}} Good {{WISHES}}"
+      msg: "HI {{PERSON}} {{WISHES}}"
 
 # To execute the below command
 # ansible 
