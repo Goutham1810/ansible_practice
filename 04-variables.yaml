@@ -1,7 +1,7 @@
 - name: Declaring Vairables
   hosts: localhost
   vars:
-    course: "devops"
+    course: "devops-ansible"
     trainer: "sivakumar M"
     duration: "120HR"
   tasks:
