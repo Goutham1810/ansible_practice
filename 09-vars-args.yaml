@@ -3,3 +3,6 @@
   tasks:
     ansible.builtin.debug:
       msg: "HI {{PERSON}} Good {{WISHES}}"
+
+# To execute the below command
+# ansible 
