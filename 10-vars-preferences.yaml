@@ -9,7 +9,7 @@
     prompt: Please Enter WISHES
     privacy: false
   tasks:
-  - name: Varible from task variable
+  - name: Varible Prefrences
     vars:
       WISHES: "Morning from TASK Variable"
     ansible.builtin.debug:
