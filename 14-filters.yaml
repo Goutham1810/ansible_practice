@@ -15,4 +15,4 @@
   tasks:
   - name: to print min and max ages
     ansible.builtin.debug:
-      msg: "To print min ages {{ numbers | min }}, To print max ages {{ numbers | max }}"
+      msg: "To print min ages {{ numbers | unique}}"
