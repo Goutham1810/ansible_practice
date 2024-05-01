@@ -1,0 +1,6 @@
+- name: Declaration of Variable At Inventory page
+  hosts: localhost
+  tasks:
+  - name: print variable from inventory page
+    ansible.builtin.debug:
+      msg: "Hi, I enrolled for a {{Course}} from a trainer {{Trainer}} in a duration {{Duration}}"
