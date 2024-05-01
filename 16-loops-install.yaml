@@ -1,3 +1,4 @@
+
 - name: install the libraries
   hosts: localhost
   become: yes
@@ -5,7 +6,7 @@
   - name: installing them using loops
     ansible.builtin.dnf:
       name: "{{item}}"
-      state: "{{latest}}"
+      state: latest
     loop:
     - linux
     - ansible
