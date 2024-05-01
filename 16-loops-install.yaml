@@ -1,5 +1,6 @@
 - name: install the libraries
   hosts: localhost
+  become: yes
   tasks:
   - name: installing them using loops
     ansible.builtin.dnf:
