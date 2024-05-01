@@ -1,13 +1,13 @@
 - name: declaration of variable at File level
   hosts: localhost
   vars_prompt:
-    - name: USERNAME
+  - name: USERNAME
       prompt: Please Enter Your Username
       private: false
-    - name: PASSWORD
+  - name: PASSWORD
       prompt: Please Enter Your Password
       private: true
   tasks:
   - name: print variable from prompt
-    ansible.builtin.debug:
-      msg: "Hi, We are learning {{Course}} from a {{Trainer}} in a duration of {{Duration}}"
+      ansible.builtin.debug:
+        msg: "Hi, We are learning {{Course}} from a {{Trainer}} in a duration of {{Duration}}"
