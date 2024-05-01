@@ -13,5 +13,5 @@
     vars:
       WISHES: "Morning from TASK Variable"
     ansible.builtin.debug:
-      msg: Hi {{WISHES}}
+      msg: Hi, Good {{WISHES}}
     
