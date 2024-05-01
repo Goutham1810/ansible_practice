@@ -7,14 +7,12 @@
   tasks:
   - name: print task variable
     vars:
-        course: "Devops-Ansible"
+      course: "Devops-Ansible"
     ansibel.builtin.debug:
-        msg: "Hi. i am learning {{course}} from {{trainer}} in a duration of {{duration}}"
-
+      msg: "Hi. i am learning {{course}} from {{trainer}} in a duration of {{duration}}"
 
   - name: print task variable
-    vars: # Task variable
-        course: "Devops-Terraform"
+    vars:
+      course: "Devops-Ansible"
     ansibel.builtin.debug:
-        msg: "Hi. i am learning {{course}} from {{trainer}} in a duration of {{duration}}"
-      
+      msg: "Hi. i am learning {{course}} from {{trainer}} in a duration of {{duration}}"
