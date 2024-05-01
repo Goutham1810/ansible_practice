@@ -8,6 +8,6 @@
       prompt: Please Enter Your Password
       private: true
   tasks:
-  - name: printing varibles in another file
+  - name: print variable from prompt
     ansible.builtin.debug:
       msg: "Hi, We are learning {{Course}} from a {{Trainer}} in a duration of {{Duration}}"
