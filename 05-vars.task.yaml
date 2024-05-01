@@ -12,7 +12,5 @@
       msg: "Hi. i am learning {{course}} from {{trainer}} in a duration of {{duration}}"
 
   - name: print task variable
-    vars:
-      course: "Devops-Terraform"
     ansible.builtin.debug:
       msg: "Hi. i am learning {{course}} from {{trainer}} in a duration of {{duration}}"
