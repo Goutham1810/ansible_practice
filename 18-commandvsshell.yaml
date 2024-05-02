@@ -1,0 +1,15 @@
+- name: Commands vs Shell operation
+  hosts: localhost
+  tasks:
+  - name: command module operaion
+    ansible.builtin.command: " echo 'Hi. this is from command module' > /tmp/command.txt"
+
+  - name: command module shell operation
+    ansible.builtin.shell: "echo 'Hi, this is from shell module' > /tmp/shell.txt"
+
+
+
+  # simple commands without the need of shell variables, environment and features like re-directions, pipes & go for command module
+
+  # if we need to run complex commands or script go for shell module
+  # what ever works in command module, will work in shell module but viceversa is not possible.
